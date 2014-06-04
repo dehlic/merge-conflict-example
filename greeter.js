@@ -3,8 +3,8 @@ var Greeter = (function () {
   
   function Greeter() {}
 
-  Greeter.prototype.hello = function (name) {
-    return ['hello', name].join(' ');
+  Greeter.prototype.ciao = function (name) {
+    return ['ciao', name].join(' ');
   };
   
   return Greeter;
